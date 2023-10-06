@@ -1,0 +1,50 @@
+.display
+{
+  margin-top: 20px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+  font-family: Verdana;
+  .display-container
+  {
+    display: flex;
+    border-bottom: 2px solid #dfe3e7;
+    border-top: 2px solid #dfe3e7;
+    gap: 15rem;
+  }
+  .display-container-list
+  {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    line-height: 0;
+    .display-container-list-value
+    {
+      display: flex;
+      gap: 15rem;
+      align-items: center;
+      justify-content: space-around;
+      #display-container-list-value-edit
+      {
+        border: 2px solid #31ac43;
+        background-color: #31ac43;
+        width:40px;
+        height: 20px;
+        color: #f8fceb;
+        border-radius: 3px;
+        padding: 2px;
+      }
+      #display-container-list-value-delete
+      {
+        border: 2px solid #d63645;
+        background-color: #d63645;
+        width:20px;
+        height: 20px;
+        color: #f8fceb;
+        border-radius: 3px;
+        text-align: center;
+      }
+    }
+  }
+}
